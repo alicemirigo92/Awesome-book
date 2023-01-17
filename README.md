@@ -115,7 +115,7 @@ Use JavaScript events.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link]()
+- [Live Demo Link](https://alicemirigo92.github.io/Awesome-book/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +125,7 @@ Use JavaScript events.
 
 Getting Started
 Cloning the project
-Git clone https://github.com/alicemirigo92/Agri-Expo
+Git clone 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -144,7 +144,7 @@ Example command:
 
 Getting Started
 Cloning the project
-Git clone https://github.com/alicemirigo92/Agri-Expo
+Git clone 
 To get a local copy up and running follow these simple example steps.
 
 <!--
