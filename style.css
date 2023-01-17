@@ -1,31 +1,88 @@
-* {
-  box-sizing: border-box;
+body {
+  font-family: Arial, sans-serif;
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  width: 610px;
+  height: min-content;
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
+#book-collection {
+  text-align: center;
 }
 
 h1 {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
-form {
+#book-list {
+  width: 80%;
   display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid;
+}
+
+.book {
+  width: 30rem;
+  height: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  padding: 3px;
+}
+
+.book:nth-child(even) {
+  background-color: lightgray;
+}
+
+#add-book-form {
+  display: flex;
+  margin-top: -5rem;
   flex-direction: column;
-  margin-top: 12px;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 1rem;
+  align-items: center;
 }
 
 #add-button {
-  cursor: pointer;
-  padding: 0 8px;
-  border-radius: 4px;
-  background-color: lightgrey;
+  margin-left: 8rem;
+  border: 1px solid;
+}
+
+#add-book-form label {
+  margin-right: 10px;
+  border: 1px solid;
+}
+
+h2 {
+  font-size: smaller;
+}
+
+#remove-button {
+  margin-left: 10rem;
+  margin-right: -0.2rem;
+  border: 1px solid;
+}
+
+h3 {
+  font-size: smaller;
+}
+
+h4 {
+  margin-top: 4rem;
+}
+
+.line {
+  height: 91px;
+  position: relative;
+  width: 2px;
+  top: -7.5rem;
+  rotate: 90deg;
+  left: 19rem;
+  background-color: #464242;
 }
