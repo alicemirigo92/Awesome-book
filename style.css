@@ -5,23 +5,19 @@ body {
   height: min-content;
 }
 
-
 a {
   text-decoration: none;
   color: #000;
 }
 
-
 nav {
   position: relative;
 }
-
 
 nav small {
   position: absolute;
   right: 6%;
 }
-
 
 .top-nav {
   display: flex;
@@ -32,17 +28,14 @@ nav small {
   justify-content: flex-end;
 }
 
-
 .top-nav span:first-of-type a {
   color: blue;
 }
-
 
 #new-book,
 #contact {
   display: none;
 }
-
 
 .book {
   width: 30rem;
@@ -56,11 +49,9 @@ nav small {
   padding: 3px;
 }
 
-
 .book:nth-child(even) {
   background-color: lightgray;
 }
-
 
 #add-book-form {
   display: flex;
@@ -72,23 +63,15 @@ nav small {
   align-items: center;
 }
 
-
 #add-button {
   margin-left: 8rem;
   border: 1px solid;
 }
 
-
 #add-book-form label {
   margin-right: 10px;
   border: 1px solid;
 }
-
-
-h2 {
-  font-size: smaller;
-}
-
 
 #remove-button {
   margin-left: 10rem;
@@ -96,16 +79,10 @@ h2 {
   border: 1px solid;
 }
 
-
-h3 {
+h2 {
   font-size: smaller;
-}
-
-
-h4 {
   margin-top: 4rem;
 }
-
 
 .line {
   height: 91px;
@@ -116,139 +93,6 @@ h4 {
   left: 19rem;
   background-color: #464242;
 }
-
-
-footer {
-  position: fixed;
-  bottom: 3%;
-  left: 0;
-  width: 100vw;
-  padding: 2px;
-  border: 3px solid;
-}
-
-
-
-
-body {
-  font-family: Arial, sans-serif;
-  padding: 0;
-  margin: 0;
-  height: min-content;
-}
-
-
-a {
-  text-decoration: none;
-  color: #000;
-}
-
-
-nav {
-  position: relative;
-}
-
-
-nav small {
-  position: absolute;
-  right: 6%;
-}
-
-
-.top-nav {
-  display: flex;
-  gap: 5px;
-  border: 3px solid;
-  box-sizing: border-box;
-  padding: 1% 3%;
-  justify-content: flex-end;
-}
-
-
-.top-nav span:first-of-type a {
-  color: blue;
-}
-
-
-#new-book,
-#contact {
-  display: none;
-}
-
-
-.book {
-  width: 30rem;
-  height: 1rem;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  align-content: center;
-  padding: 3px;
-}
-
-
-.book:nth-child(even) {
-  background-color: lightgray;
-}
-
-
-#add-book-form {
-  display: flex;
-  margin-top: -5rem;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  gap: 1rem;
-  align-items: center;
-}
-
-
-#add-button {
-  margin-left: 8rem;
-  border: 1px solid;
-}
-
-
-#add-book-form label {
-  margin-right: 10px;
-  border: 1px solid;
-}
-
-
-h2 {
-  font-size: smaller;
-}
-
-
-#remove-button {
-  margin-left: 10rem;
-  margin-right: -0.2rem;
-  border: 1px solid;
-}
-
-
-h3 {
-  font-size: smaller;
-}
-
-
-h4 {
-  margin-top: 4rem;
-}
-
-
-.line {
-  height: 91px;
-  position: relative;
-  width: 2px;
-  top: -7.5rem;
-  rotate: 90deg;
-  left: 19rem;
-  background-color: #464242;
-}
-
 
 footer {
   position: fixed;

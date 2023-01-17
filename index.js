@@ -7,13 +7,11 @@ class Book {
   }
 }
 
-
 class BookCollection {
   constructor() {
     this.collection = [];
     this.load();
   }
-
 
   load() {
     if (localStorage.getItem('bookCollection')) {
@@ -21,19 +19,16 @@ class BookCollection {
     }
   }
 
-
   add(title, author) {
     const newBook = new Book(title, author, Date.now());
     this.collection.push(newBook);
     localStorage.setItem('bookCollection', JSON.stringify(this.collection));
   }
 
-
   remove(id) {
     this.collection = this.collection.filter((book) => book.id !== id);
     localStorage.setItem('bookCollection', JSON.stringify(this.collection));
   }
-
 
   display() {
     const bookList = document.getElementById('book-list');
@@ -59,7 +54,6 @@ class BookCollection {
 const bookCollection = new BookCollection();
 bookCollection.display();
 
-
 const navs = document.querySelectorAll('.top-nav span a');
 navs.forEach((n) => {
   n.addEventListener('click', (e) => {
@@ -73,7 +67,6 @@ navs.forEach((n) => {
   });
 });
 
-
 const addBookForm = document.getElementById('add-book-form');
 addBookForm.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -84,7 +77,6 @@ addBookForm.addEventListener('submit', (e) => {
   document.getElementById('author-name').value = '';
   bookCollection.display();
 });
-
 
 setInterval(() => {
   document.querySelector('nav small').innerText = '';
