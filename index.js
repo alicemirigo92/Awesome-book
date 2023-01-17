@@ -1,5 +1,4 @@
-/* eslint-disable max-classes-per-file, arrow-parens */
-
+/* eslint-disable max-classes-per-file */
 class Book {
   constructor(title, author, id) {
     this.title = title;
@@ -8,11 +7,13 @@ class Book {
   }
 }
 
+
 class BookCollection {
   constructor() {
     this.collection = [];
     this.load();
   }
+
 
   load() {
     if (localStorage.getItem('bookCollection')) {
@@ -20,16 +21,19 @@ class BookCollection {
     }
   }
 
+
   add(title, author) {
     const newBook = new Book(title, author, Date.now());
     this.collection.push(newBook);
     localStorage.setItem('bookCollection', JSON.stringify(this.collection));
   }
 
+
   remove(id) {
     this.collection = this.collection.filter((book) => book.id !== id);
     localStorage.setItem('bookCollection', JSON.stringify(this.collection));
   }
+
 
   display() {
     const bookList = document.getElementById('book-list');
@@ -55,6 +59,21 @@ class BookCollection {
 const bookCollection = new BookCollection();
 bookCollection.display();
 
+
+const navs = document.querySelectorAll('.top-nav span a');
+navs.forEach((n) => {
+  n.addEventListener('click', (e) => {
+    document.querySelector(`${e.target.hash}`).style.display = 'block';
+    const filtered = [...navs].filter((n) => n.hash !== e.target.hash);
+    e.target.style.color = 'blue';
+    filtered.forEach((f) => {
+      f.style.color = '#000';
+      document.querySelector(`${f.hash}`).style.display = 'none';
+    });
+  });
+});
+
+
 const addBookForm = document.getElementById('add-book-form');
 addBookForm.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -65,3 +84,9 @@ addBookForm.addEventListener('submit', (e) => {
   document.getElementById('author-name').value = '';
   bookCollection.display();
 });
+
+
+setInterval(() => {
+  document.querySelector('nav small').innerText = '';
+  document.querySelector('nav small').innerText = new Date().toUTCString();
+}, 1000);

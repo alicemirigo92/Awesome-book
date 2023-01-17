@@ -8,21 +8,52 @@
   <title>Awesome books</title>
 </head>
 <body>
-<div id="book-collection">
-  <h1>All awesome Books</h1>
-  <div id="book-list"></div>
-  <h4>Add a new book</h4>
-  <div class="line"></div>
-  <form id="add-book-form">
-    <label>
-      <input type="text" id="book-title" name="book-title" placeholder="Title">
-    </label>
-    <label>
-      <input type="text" id="author-name" name="author-name" placeholder="Name">
-    </label>
-    <button type="submit" id="add-button">Add</button>
-  </form>
-</div>
-<script src="./trial.js"></script>
+  <header>
+    <nav>
+      <p class="top-nav">
+        <span><a href="#book-collection">List</a></span>
+        <span>|</span>
+        <span><a href="#new-book">Add new</a></span>
+        <span>|</span>
+        <span><a href="#contact">Contact</a></span>
+      </p>
+      <small></small>
+    </nav>
+  </header>
+  <section id="book-collection">
+    <h1>All awesome Books</h1>
+    <div id="book-list">
+
+
+    </div>
+  </section>
+  <section id="new-book">
+    <h2>Add a new book</h2>
+    <div class="line"></div>
+    <form id="add-book-form">
+      <label>
+        <input type="text" id="book-title" name="book-title" placeholder="Title">
+      </label>
+      <label>
+        <input type="text" id="author-name" name="author-name" placeholder="Name">
+      </label>
+      <button type="submit" id="add-button">Add</button>
+    </form>
+  </section>
+  <section id="contact">
+    <h2>Contact information</h2>
+    <p>Do you have any question or you just want to say "Hello"? <br>
+       You can reach our to us at:
+    </p>
+    <ul>
+      <li>Our Email: aliciamir@yahaa.io</li>
+      <li>Our Phone Number: +7826367135</li>
+      <li>Our Address Information: 7832 Queen's street</li>
+    </ul>
+  </section>
+  <footer>
+    <p>&#169; 2023 Designed by Alice</p>
+  </footer>
+<script type="module" src="./index.js"></script>
 </body>
 </html>
