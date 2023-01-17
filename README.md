@@ -114,9 +114,8 @@ Use JavaScript events.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Loom video https://www.loom.com/share/24f7518aec3740f49da40aec0354787d
 
-- [Live Demo Link](https://alicemirigo92.github.io/Agri-Expo/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
