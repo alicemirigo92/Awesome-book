@@ -1,4 +1,5 @@
-/* eslint-disable max-classes-per-file */
+/* eslint-disable max-classes-per-file, arrow-parens */
+/* eslint-disable no-unused-vars */
 class Book {
   constructor(title, author, id) {
     this.title = title;
@@ -54,19 +55,6 @@ class BookCollection {
 const bookCollection = new BookCollection();
 bookCollection.display();
 
-const navs = document.querySelectorAll('.top-nav span a');
-navs.forEach((n) => {
-  n.addEventListener('click', (e) => {
-    document.querySelector(`${e.target.hash}`).style.display = 'block';
-    const filtered = [...navs].filter((n) => n.hash !== e.target.hash);
-    e.target.style.color = 'blue';
-    filtered.forEach((f) => {
-      f.style.color = '#000';
-      document.querySelector(`${f.hash}`).style.display = 'none';
-    });
-  });
-});
-
 const addBookForm = document.getElementById('add-book-form');
 addBookForm.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -77,8 +65,3 @@ addBookForm.addEventListener('submit', (e) => {
   document.getElementById('author-name').value = '';
   bookCollection.display();
 });
-
-setInterval(() => {
-  document.querySelector('nav small').innerText = '';
-  document.querySelector('nav small').innerText = new Date().toUTCString();
-}, 1000);
