@@ -1,5 +1,5 @@
 # Awesome-book
-<a name="Alice"></a>
+<a name="Mladan Ilic"></a>
 
 <!--
 HOW TO USE:
@@ -61,11 +61,8 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome Books!] <a name="In this project we are able to create book list and manupulate them."></a>
-
-> In this project i created book list that i used javascript to manupulate it
-
-**[Awesome books!]** is a...
+# 📖 Mladan Ilic Alice Mirigo Boniface Dennis<a name="about-project"></a>
+**Awesome books** In this project, you will build a basic website that allows users to add/remove books from a list. You will achieve that by using JavaScript objects and arrays. You will also need to dynamically modify the DOM and add basic events.
 
 ## 🛠 Built With <a name="built-with"></a>
 Use HTML/CSS
@@ -104,16 +101,15 @@ Use JavaScript events.
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[This app allows users to add/remove books from a list]**
+- **[List is stored to the local storage]**
+- **[Display all books saved in the collection]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-
 
 - [Live Demo Link](https://alicemirigo92.github.io/Awesome-book/)
 
@@ -125,7 +121,7 @@ Use JavaScript events.
 
 Getting Started
 Cloning the project
-Git clone 
+Git clone https://github.com/djo1975/Awesome-books-PairPrograming.git
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
@@ -144,7 +140,7 @@ Example command:
 
 Getting Started
 Cloning the project
-Git clone 
+Git clone https://github.com/djo1975/Awesome-books-PairPrograming.git
 To get a local copy up and running follow these simple example steps.
 
 <!--
@@ -211,13 +207,13 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **Mladan Ilic**
 
-👤 **Author1**
+👤 **Alice Mirigo**
 
-- GitHub: [@githubhandle](https://github.com/alicemirigo92)
-- Twitter: [@twitterhandle](https://twitter.com/GathoniMirigo)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/alice-mirigo)
+- GitHub: [@githubhandle]()
+- Twitter: [@twitterhandle]()
+- LinkedIn: [LinkedIn]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,9 +223,9 @@ Example:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **convert it into a fully functional website]**
+- [ ] **[to add three new sections on top of the two sections]**
+- [ ] **[new Contact info section, a Navigation bar, and a Footer.]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -257,7 +253,10 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> According to the requirement, i acknowledge Cindy Shin the author of the original design, as required by the Creative Commons License.
+> According to the requirement, i acknowledge,
+Mladan Ilic
+Alice Gathoni
+Boniface Dennis
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
